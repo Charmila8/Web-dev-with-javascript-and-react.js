@@ -1,12 +1,12 @@
 import React from "react";
 
-function info(){
+function Info(){
   return(
     <div className="note">
       <h1>react.js and note.js<\h1>
       <p> it was an really amazing experiance <\p>
-        <\div>
+    <\div>
         );
         }
-        export default info;
+        export default Info;
         
