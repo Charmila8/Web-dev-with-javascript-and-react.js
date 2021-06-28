@@ -1,16 +1,16 @@
 import React from " react";
 import Header from "./ Header";
 import Footer from "./Footer";
-import info from "./ info";
+import Info from "./ Info";
 
 function App(){
   return(
     <div>
       <Header/>
       <Footer/>
-      <info/>
+      <Info/>
       <\div>
       );
       }
-      export defult App;
+      export default App;
       
