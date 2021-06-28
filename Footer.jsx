@@ -1,13 +1,10 @@
 import React from "react";
 
 function Footer(){
-
-  var curryear=new Date().getDate();
-
   return(
     <footer>
-      <p>copyright{curryear}<\p>
-      </footer>
+      <p>copyright by shapeAI @ {new Date().getFullyear()}<\p>
+    </footer>
       );
       }
-      export defult Footer;
+      export default Footer;
